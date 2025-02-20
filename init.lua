@@ -705,6 +705,9 @@ require('lazy').setup({
           end,
         },
       }
+
+      -- Setup OCaml LSP manually
+      require('lspconfig').ocamllsp.setup {}
     end,
   },
 
